@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="POST" action="/rates/update">
+  <table>
+    <thead>
+      <td>ID</td>
+      <td><b>Name</b></td>
+      <td><b>Rate</b></td>
+    </thead>
+    <tbody>
+    {% for x in rates %}
+    <tr>
+      <td hidden><input type="text" name="id" value="{{x.id}}" ></td>
+      <td><input type="text" name="name" value="{{x.name}}"></td>
+      <td><input type="text" name="value" value="{{x.rate}}"></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  <input type="submit" value="Update rates">
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+boto3==1.26.108
+botocore==1.29.108
+certifi==2022.6.15
+Flask==2.2.2
+Flask-SQLAlchemy==3.0.3
+itsdangerous==2.1.2
+mysql==0.0.3
+mysqlclient==2.1.1
+numpy==1.22.4
+numpydoc==1.4.0
+pandas==1.4.3
+SQLAlchemy==2.0.3
+Werkzeug==2.2.3

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="efficio-icon" sizes="76x76" href="static/img/efficio.png">
+  <link rel="icon" type="image/png" href="static/img/efficio.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    AutoCube
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!-- Fonts and icons -->
+
+</head>
+
+<body>
+  <div class="navbar">
+      <h2> </h2>
+  </div>
+  <hr>
+ 
+
+  <div class="container">
+  <h2>Welcome to AutoCube</h2>
+  <br>
+  <div class="card" style="width:400px">
+     
+    <div class="card-body ">
+      <form action="/upload" method="post" enctype="multipart/form-data">
+      <p class="card-text">Select a file to upload</p>
+      <br>
+        <input type="file" name="file" value="file">
+      <br>
+      <br>
+      <input type="submit" name="upload" value="Upload" class="btn btn-success">
+      </form>
+      <br>
+      <br>
+      <p class="card-text">Select your columns</p>
+      <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <br>
+        <p>test</p>
+        <select name="headers" method="GET" action="/">
+          <option value="{{msg[0]}}" selected>{{msg[0]}}</option>
+          {% for header in msg[1:] %}
+            <option value="{{header}}">{{header}}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <form>
+            <select>
+                <option value="0">Select your Destination..</option>
+                <option value="NewYork.html">New York</option>
+                <option value="Toronto.html">Toronto</option>
+                <option value="NewJersey.html">New Jersey</option>
+            </select>
+            <input type="submit" value="Submit" class="myButton">
+        </form>
+    </div>
+  </div>
+  <br>
+</div>
+
+</body>
+
+</html>
