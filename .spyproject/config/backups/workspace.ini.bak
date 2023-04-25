@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['tes.py']
+recent_files = ['tes.py', 'templates\\home.html', 'templates\\data.html', 'templates\\home_success.html']
 
 [main]
 version = 0.2.0
